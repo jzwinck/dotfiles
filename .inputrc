@@ -1,0 +1,7 @@
+# include system defaults
+$include /etc/inputrc
+
+set bell-style off
+set show-all-if-ambiguous on
+set echo-control-characters off
+set completion-ignore-case on
