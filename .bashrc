@@ -19,7 +19,6 @@ alias df='df --human-readable'
 alias cp='cp --interactive'
 alias mv='mv --interactive'
 alias rm='rm --interactive'
-alias post-review='post-review --guess-description --username=jz'
 
 shopt -s cdspell
 
@@ -31,3 +30,5 @@ export HISTIGNORE='&:[bf]g' # :ls
 export LESS='FSRX'
 export MAKEFLAGS='-j8'
 export PYTHONSTARTUP=~/.pythonrc.py
+
+alias emacs='emacs -nw'
