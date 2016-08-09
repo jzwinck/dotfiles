@@ -51,6 +51,9 @@
 
 (setq auto-mode-alist (append '(("/schedule/cron/\\w+/" . sh-mode)) auto-mode-alist))
 
+(add-to-list 'interpreter-mode-alist '("python2" . python-mode))
+(add-to-list 'interpreter-mode-alist '("python3" . python-mode))
+
 ;; CMake mode
 (require 'cmake-mode)
 (setq auto-mode-alist
